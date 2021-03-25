@@ -1,5 +1,10 @@
 ### Hi there 👋
 
+- 🔭 I’m currently working on some cool ideas for Airsoft games, some general scripts and a school
+- 🌱 I’m currently learning more about C# and some mobile tech.
+- 🤔 I’m looking for help with on Airsoft games application.
+- 💬 Ask me about some Docker and DevOps Stuff
+- 📫 How to reach me: leeroya@gmail.com
 <!--
 **leeroya/leeroya** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
