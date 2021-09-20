@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      {% if jekyll.environment == 'production' %}
+        {% if site.tag_manager_id %}
+          {% include google_tag_manager.html %}
+        {% elsif site.google_analytics_tracking_id %}
+          {% include google_analytics.html %}
+        {% endif %}
+      {% endif %}
+      <link href="http://leeroya.com" rel="canonical">
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="Software development using C# dotnet core, Docker, Gitkraken and JetBrains Rider.">
+      <meta name="og:title" property="og:title" content="Gitkraken, Docker and all things dotnet core.">
+      <meta name="robots" content="index, follow">
+      <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/materialize.css">
+      {% if site.syntax_highlighting %}
+        <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/main.css">
+      {% endif %}
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+      <link rel="apple-touch-icon" sizes="57x57" href="{{site.baseurl}}/assets/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="{{site.baseurl}}/assets/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="{{site.baseurl}}/assets/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="{{site.baseurl}}/assets/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="{{site.baseurl}}/assets/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="{{site.baseurl}}/assets/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="{{site.baseurl}}/assets/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="{{site.baseurl}}/assets/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="{{site.baseurl}}/assets/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="{{site.baseurl}}/assets/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="{{site.baseurl}}/assets/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="{{site.baseurl}}/assets/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="{{site.baseurl}}/assets/favicon-16x16.png">
+      <link rel="manifest" href="{{site.baseurl}}/assets/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="{{site.baseurl}}/assets/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+      <title>{{site.title}}</title>
+      <!-- Global Site Tag (gtag.js) - Google Analytics -->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-45570731-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-45570731-1');
+      </script>
+      <!-- Google Tag Manager -->
+      <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-WW36W7T');</script>
+      <!-- End Google Tag Manager -->
+    </head>
+    <body>
+      {% if site.tag_manager_id and jekyll.environment == 'production' %}
+        <!-- Google Tag Manager (noscript) -->
+          <noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{site.tag_manager_id}}"
+            height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+        <!-- End Google Tag Manager (noscript) -->
+      {% endif %}
+

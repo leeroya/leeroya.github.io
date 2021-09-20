@@ -1,0 +1,132 @@
+{% include head.html %}
+
+<div id="home" class="section scrollspy">
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center teal-text text-lighten-2">
+          <img src="../assets/us.jpg" style="max-height: 70px; max-width: 70px;" />
+          <img title="{{ site.title }}" src="../assets/white-logo.png" style="max-height: 100px; max-width: 600px;" />
+        </h1>
+        <div class="row center">
+          <h5 class="header col s12 light">
+            Husband, father, full stack developer, audio book enthusiast, Docker Community Leader, GitKraken Ambassador
+            and Jetbrains Rider promoter.
+          </h5>
+        </div>
+        <div class="row center">
+          <h5 class="header col s12 light">
+            With the evolution of DevOps I try keep up with the current trends and offer on-site training, and
+            presentations to try teach or inspire teams to
+            take on the DevOps principles.
+          </h5>
+        </div>
+        <div class="row center">
+          <h5 class="header col s12 light">
+            I create bespoke apps to help illustrate these DevOps principles to help showcase a practical example for
+            companies/teams to see.
+          </h5>
+        </div>
+        <br><br>
+      </div>
+    </div>
+    <div class="parallax"><img src="../assets/images/startup3.jpg" alt="Unsplashed background img 1"></div>
+  </div>
+</div>
+
+<div id="cookies" style="display:{{site.cookies_banner}}">
+  <p style="text-align:left; padding-left:8px"><a value="hide/show" id="check"
+      class="waves-effect waves-light green lighten-1 btn btn-floating pulse"
+      onclick="Materialize.toast('{{site.cookie_accept_message}}', 2000)"><i class="material-icons">check</i></a></p>
+  {% include cookies.html %}
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col s2">
+      <a href="https://www.gitkraken.com/invite/kgC8UXzX" target="_blank">
+        <img src="../assets/images/GitKraken.Ambassador.Logo.png" style="max-width: 100px;" />
+      </a>
+    </div>
+    <div class="col s2">
+      I am a Gitkraken Ambassador, reach out to me and I can assist with Gitkraken questions and suggestions for you and
+      your team.
+      Click on the link <a href="https://www.gitkraken.com/invite/kgC8UXzX">Get Gitkraken</a> and get the best Git
+      client ever.
+    </div>
+    <div class="col s2">
+      <a href="https://events.docker.com/durban" target="_blank">
+        <img src="../assets/images/docker.community.leader.jpg" style="width: 100px;" />
+      </a>
+    </div>
+    <div class="col s2">
+      I am a Docker Community Leader, reach out to me and I can assist with Docker questions and suggestions for you and
+      your team.
+      Click on the link <a href="https://events.docker.com/durban" target="_blank">Check out or meetups</a> and join us
+      for one of our events.
+    </div>
+    <div class="col s2">
+      <a href="https://www.jetbrains.com/rider/">
+        <img src="../assets/images/rider_logo_300x300.png" style="width: 100px;" />
+      </a>
+    </div>
+    <div class="col s2">
+      I am a Jetbrains Rider promoter, if you want the best C# IDE check it out.
+      Click on the link <a href="https://www.jetbrains.com/rider/">Get Rider</a> and get the best dotnet IDE ever.
+    </div>
+  </div>
+</div>
+<div class="container" style="padding:20px;">
+  <div id="portfolio" class="section scrollspy">
+
+    <h3 style="text-align:center;">{{site.portfolio_heading}}</h3>
+
+    {% include portfolio_{{site.portfolio_type}}.html %}
+
+  </div>
+
+
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="skills" class="section scrollspy">
+    <h3 style="text-align:center;">Tools and Experience</h3>
+    {% include skills.html %}
+  </div>
+</div>
+
+
+
+
+<div class="parallax-container valign-wrapper">
+  <div class="section no-pad-bot">
+    <div class="container">
+      <div class="row center">
+
+      </div>
+    </div>
+  </div>
+  <div class="parallax"><img src="../assets/images/twoscreen.jpg" alt="Unsplashed background img 3"></div>
+</div>
+
+
+<div class="container" style="padding:20px;">
+  <div id="blog" class="section scrollspy">
+    <h3 style="text-align:center;">Blog</h3>
+    {% include blog-feed.html %}
+  </div>
+</div>
+
+<div class="container" style="padding:20px;">
+  <div id="contact" class="section scrollspy">
+    <h3 style="text-align:center;">Contact</h3>
+    {% include contact.html %}
+  </div>
+</div>
+
+
+
+
+{% include nav-burger.html %}
+
+{% include footer.html %}

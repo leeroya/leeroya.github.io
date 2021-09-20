@@ -1,0 +1,16 @@
+<div class="row">
+  <div class="card" style="width: 100%;">
+    <div class="card-body">
+      <p class="card-text">
+        {% for category in site.categories %}
+        <div class="collection">
+          {% for post in category[1] %}
+          <a href="{{ post.url }}" class="collection-item"><span
+              class="new badge">{{ category[0] }}</span>{{ post.title }}</a>
+          {% endfor %}
+        </div>
+        {% endfor %}
+      </p>
+    </div>
+  </div>
+</div>

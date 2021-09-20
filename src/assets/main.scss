@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+// Syntax highlighting sass properties and inclusion
+$base-font-size: 1em;
+$spacing-unit:     30px !default;
+
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+}
+
+@import "syntax-highlighting";
+$badge-text-color: #ffffff;
+$badge-default-bg: #2c3e50;
+$badge-info-bg: #3498db;
+$badge-warning-bg: #f1c40f;
+$badge-danger-bg: #e74c3c;
+$badge-success-bg: #2ecc71;
+.badge {
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: #2c3e50 !important;;
+    color: #ffffff !important;
+    border-radius: 3rem; // As longe as this is bigger than the fontsize
+    text-align: center;
+
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: .05rem .8rem .1rem;
+    line-height: inherit;
+}

@@ -1,0 +1,103 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: leeroya.com
+email: leeroya@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http:www.leeroya.com" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: DurbanDocker
+github_username:  leeroya
+google_analytics_tracking_id: UA-45570731-1
+# Build settings
+markdown: kramdown
+permalink: pretty
+theme: jekyll-material-theme
+plugins:
+  - jekyll-feed
+  - jekyll-assets
+  - jekyll-minifier
+# Settings for the porfolio section
+
+portfolio_heading: Portfolio
+portfolio_type: cards #cards or carousel
+
+project_one: "Open Learn"
+project_one_description: This is a open-source free schooling application to help parents and children to learn from home.
+project_one_url: https://gitlab.com/open-learn
+project_one_icon: location_on # these are from materiailize css, the full collection is here: http://materializecss.com/icons.html
+
+project_two: "Glitch"
+project_two_description: This is a ordering system to help food vendors manage thier clients better.
+project_two_url: https://gitlab.com/ashworx/glitch.mobile
+project_two_icon: photo_camera
+
+
+project_three: "Destiny Church Mobile"
+project_three_description: I created and donated this application to understand the workflow in using Ionic framework with publishing to the Google Play Store.
+project_three_url: https://gitlab.com/leeroya.com/destiny-church-mobile
+project_three_icon: hotel
+
+
+project_four: "Minutz"
+project_four_description: Our cloud-based Minutz; a professional meeting management application drives your meetings to the point of action. Efficiency is the name of the game because without it, comes time-consuming, money-wasting, unproductive hours.
+project_four_url: https://minutz.co
+project_four_icon: minutz-project-image.png
+
+icon_size: 50 # font-size of icons in px
+colored: colored # Leave blank for black and white icons
+
+project_button: Gitlab
+
+github: https://github.com/leeroya
+#github: https://github.com/jameshamann/jekyll-material-theme
+medium: https://www.linkedin.com/in/lee-roy-ashworth-179946b7
+
+skills:
+  - name: android
+  - name: angularjs
+  - name: csharp
+  - name: docker
+  - name: dot-net
+  - name: git
+  - name: gitlab
+  - name: javascript
+  - name: nginx
+  - name: nodejs
+  - name: ssh
+  - name: typescript
+  - name: visualstudio
+  - name: webpack
+  - name: webstorm
+  - name: rider
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - pages
+    - staticfiles
+    - datafiles
+    - configuration
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
