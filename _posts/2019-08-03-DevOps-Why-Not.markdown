@@ -46,6 +46,8 @@ This is based on your preference but some easy tools to use:
 
 ## Conclusion
 
-Now every chance that comes around when working with my code or other teams code, the first step is getting it compiling in a container, then take the artifact [out put of the build] and connect it to some deployment mechanism, then script all the in-between steps. 
+Now every chance that comes around when working with my code or other teams code, the first step is getting it compiling in a container, then take the artifact [out put of the build] and connect it to some deployment mechanism, then script all the in-between steps.
 
 The goal to is have a traceable flow from commit through to production so that you know what is running in production.
+
+![](https://www.youtube.com/watch?v=0oEsMwSxBsk)

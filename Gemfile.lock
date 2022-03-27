@@ -22,6 +22,7 @@ GEM
     fastimage (2.1.5)
     ffi (1.10.0)
     forwardable-extended (2.6.0)
+    gemoji (3.0.1)
     htmlcompressor (0.4.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
@@ -75,6 +76,11 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.0)
       jekyll (~> 3.3)
+    jekyll-spaceship (0.10.2)
+      gemoji (~> 3.0)
+      jekyll (>= 3.6, < 5.0)
+      nokogiri (~> 1.6)
+      rainbow (~> 3.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     json (2.2.0)
@@ -107,6 +113,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
+    rainbow (3.1.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -147,6 +154,7 @@ DEPENDENCIES
   jekyll-admin
   jekyll-feed (~> 0.6)
   jekyll-material-theme
+  jekyll-spaceship
   minima (~> 2.0)
   tzinfo-data
 
