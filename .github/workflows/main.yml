@@ -4,6 +4,8 @@ jobs:
   jekyll_build:
     runs-on: ubuntu-latest
     name: BuildAndPublish
+    env:
+      JEKYLL_VERSION: 3.8
     steps:
       - name: Build Jekyll site
         run: |
