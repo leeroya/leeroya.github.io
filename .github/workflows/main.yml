@@ -10,6 +10,7 @@ jobs:
       - name: Build Jekyll site
         run: |
           docker run --rm --volume="${{ github.workspace }}:/srv/jekyll" jekyll/jekyll:$JEKYLL_VERSION jekyll build
+          ls -al
     
       - name: AzureLogin
         uses: azure/login@v1
