@@ -3,24 +3,24 @@ on: [push]
 jobs:
   jekyll_build:
     runs-on: ubuntu-latest
-    name: Build
+    name: BuildAndPublish
     steps:
       - name: Build Jekyll site
         run: |
-          docker run \
-            -v ${{ github.workspace }}:/srv/jekyll \
-            jekyll/builder:4.2.0 \
-            /bin/bash -c 'chmod 777 /srv/jekyll && bundle exec jekyll build --future'
-
-  hello_world_job:
-    runs-on: ubuntu-latest
-    name: A job to say hello
-    steps:
-      - name: Hello world action step
-        id: hello
-        uses: actions/hello-world-docker-action@v1
+          docker run --rm --volume="${{ github.workspace }}:/srv/jekyll" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
+    
+      - uses: azure/login@v1
         with:
-          who-to-greet: 'Mona the Octocat'
-      # Use the output from the `hello` step
-      - name: Get the output time
-        run: echo "The time was ${{ steps.hello.outputs.time }}"
+          creds: ${{ secrets.AZURE_CREDENTIALS }}
+  # hello_world_job:
+  #   runs-on: ubuntu-latest
+  #   name: A job to say hello
+  #   steps:
+  #     - name: Hello world action step
+  #       id: hello
+  #       uses: actions/hello-world-docker-action@v1
+  #       with:
+  #         who-to-greet: 'Mona the Octocat'
+  #     # Use the output from the `hello` step
+  #     - name: Get the output time
+  #       run: echo "The time was ${{ steps.hello.outputs.time }}"
