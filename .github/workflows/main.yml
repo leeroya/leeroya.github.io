@@ -11,7 +11,8 @@ jobs:
         run: |
           docker run --rm --volume="${{ github.workspace }}:/srv/jekyll" jekyll/jekyll:$JEKYLL_VERSION jekyll build
     
-      - uses: azure/login@v1
+      - name: AzureLogin
+        uses: azure/login@v1
         with:
           creds: ${{ secrets.AZURE_CREDENTIALS }}
 
@@ -24,7 +25,7 @@ jobs:
           action: 'upload'
           ###### Repository/Build Configurations - These values can be configured to match your app requirements. ######
           # For more information regarding Static Web App workflow configurations, please visit: https://aka.ms/swaworkflowconfig
-          app_location: "/" # App source code path
+          app_location: "/_site" # App source code path
           api_location: "" # Api source code path - optional
           output_location: "_site" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
