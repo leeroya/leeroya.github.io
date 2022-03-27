@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Build Jekyll site
         run: |
-          docker run --rm --volume="${{ github.workspace }}:/srv/jekyll" -it jekyll/jekyll:$JEKYLL_VERSION jekyll build
+          docker run --rm --volume="${{ github.workspace }}:/srv/jekyll" jekyll/jekyll:$JEKYLL_VERSION jekyll build
     
       - uses: azure/login@v1
         with:
