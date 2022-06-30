@@ -29,6 +29,7 @@ plugins:
   - jekyll-feed
   - jekyll-assets
   - jekyll-minifier
+  - jekyll-spaceship
 # Settings for the porfolio section
 
 portfolio_heading: Portfolio
