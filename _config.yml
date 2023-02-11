@@ -74,7 +74,7 @@ skills:
   - name: typescript
   - name: git
   - name: kubernetes
-    uri: /assets/kubernetes-icon-color.png
+    uri: /assets/images/kubernetes-icon-color.png
   - name: ssh
   - name: docker
 
