@@ -7,9 +7,11 @@
 		"args": {
 			// Enable Node.js: pick the latest LTS version
 			"NODE_VERSION": "lts/*"
-		}	
+		}
 	},
-
+	"mounts": [
+		"source=${localEnv:USERPROFILE}/.ssh,target=/home/vscode/.ssh,type=bind"
+	],
 	// Set *default* container specific settings.json values on container create.
 	"settings": {},
 
@@ -23,6 +25,12 @@
 		// Live reload server
 		35729
 	],
+
+	"features": {
+		"ghcr.io/devcontainers/features/github-cli:1": {
+			"version": "latest"
+		}
+	},
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	"postCreateCommand": "sh .devcontainer/post-create.sh",
