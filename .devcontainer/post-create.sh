@@ -8,5 +8,6 @@ fi
 # If there's a Gemfile, then run `bundle install`
 # It's assumed that the Gemfile will install Jekyll too
 if [ -f Gemfile ]; then
+    bundle clean --force
     bundle install
 fi
