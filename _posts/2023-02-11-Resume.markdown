@@ -1,0 +1,129 @@
+---
+layout: page
+title:  "Lee-Roy Ashworth C.V."
+date:   2023-02-11 19:37:58 +0200
+categories: CV
+---
+
+# Lee-Roy Ashworth CV
+
+## Summary
+
+A passion for containerizing software, and how it can help us create better software solutions. Over the years I have learned from all my team members how to work more efficiently. Working at ``Open IT`` I worked with WPF applications, ASP.NET development and helped support a D3 product. ``Group Bazano`` we built a material tracking application and leveraged Web Forms using .NET 3.5, MS SQL Server and a lot of AJAX. ``I.S (Internet Solutions)`` I assisted in supporting the client management application which was Web Forms and began to work with Standards and frameworks and introduced what would be the beginning of what I know now as DevOps by using Web Farm Framework from Microsoft to deploy the application from TFS (Team Foundation Server). One of the largest growth periods was at ``I.S (Internet Solutions)`` as I began to explore other technologies to assist the company in other areas, like creating SharePoint solutions for external clients. At ``Derivco``, with standards being at the forefront I added in driving good software and best practices while delivering in an Agile framework, with a passion for automation. My current role at ``Derivco`` is to help with the DevOps culture, improving the ``Continuous Delivery(CD)`` and ``Continuous Integration (CI)`` solutions.
+
+I was a Docker Community Leader for a number of years and tried to find ways to expand the knowledge of containers and how they can improve the company and developers processes' and lend a helping hand.
+
+## Experience
+
+### Derivco
+
+#### DevOps Specialist
+
+``Aug 2021 – Present (over 2 years)``
+
+Working on a company level of solutions, it is one of my responsibilities to address company problems and find possibilities for better system process' and team training driving the company forward. Other parts of my day is involving myself in the teams daily tasks and aiding where possible and increasing team knowledge by constant knowledge sharing, helping individuals to grow.
+
+#### Technologies and Products
+
+- Same as below
+- Kubernetes
+- Terraform
+- Azure
+- Github with Actions
+- KEDA (Auto Scaler)
+
+### Derivco
+
+#### Senior Developer - DevOps Team
+
+``Apr 2013 – Oct 2021 (8 yrs 7 mos)``
+
+A Senior Developer for the DevOps Team, my was was spent in creating solutions for the team, with a passion of helping my team work better and faster with process management and ALM workflows as a passion.
+
+#### Technologies and Products
+
+- .NET Core 1.1 - 2.0
+- MS SQL
+- SharePoint
+- GIT
+- PowerShell
+- Docker
+- TeamCity
+- GitLab
+- Octopus Deploy
+- Proget
+- Azure DevOps
+
+### Internet Solutions
+
+#### Intermediate Software Developer
+
+Mar 2011 – Apr 2013 (2 yrs 2 mos)
+
+Helping with customization of the Client Portal product, and assisting with deployments, SharePoint 2010 development.
+
+#### Technologies
+
+- ASP.NET
+- MS SQL
+- SharePoint
+- Team Foundation Server
+- PowerShell
+- AJAX
+
+### Group Bazano
+
+#### Junior Developer
+
+``Jan 2009 – Feb 2011 (2 yrs 2 mos)``
+
+Customizing the in-house created tracking Software adding features and general support.
+
+#### Technologies
+
+- ASP.NET
+- MS SQL
+- Flash (Active Script)
+- PowerShell
+- AJAX
+
+### Open IT
+
+#### Intern/ Junior Developer
+
+``Jan 2007 – Jan 2009 (2 yrs 1 mo)``
+
+Support D3 reseller base with support and C# Development for internal applications.
+
+#### Technologies
+
+- ASP.NET
+- MS SQL
+- WPF
+- D3
+- AJAX
+
+## Education
+
+### Norkem Park High School
+
+``Matric, Fine/Studio Arts, General (1997)``
+
+### Certifications
+
+[Azure: Understanding the Big Picture - Issued Nov 2019]()
+
+### Skills
+
+- .NET
+- C#
+- SQL
+- Software Development
+- Angular
+- JavaScript
+- Microsoft SQL Server
+- Agile Methodologies and DevOps Principles
+- Docker and ContainerD
+- Kubernetes
+- Terraform
+- Azure
