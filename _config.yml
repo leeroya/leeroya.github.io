@@ -31,7 +31,8 @@ plugins:
   - jekyll-minifier
   - jekyll-spaceship
 # Settings for the porfolio section
-
+imagesurl: "../assets/gallery/img/"
+thumbsurl: "../assets/gallery/thumbs/"
 portfolio_heading: Portfolio
 portfolio_type: cards #cards or carousel
 

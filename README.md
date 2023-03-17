@@ -31,3 +31,11 @@ Using the SpaceShip plugin, adding videos is as simple as adding:
 ```MARKDOWN
 ![](https://www.youtube.com/watch?v=0oEsMwSxBsk)
 ```
+
+## Development
+
+Run the application:
+
+```BASH
+bundle exec jekyll serve --livereload
+```
